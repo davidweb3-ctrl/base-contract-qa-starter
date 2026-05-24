@@ -73,6 +73,16 @@ For `SignatureEscrow`:
 
 The tests avoid external dependencies and use only Foundry cheatcodes declared locally in the test files.
 
+## Public Proof Page
+
+Free static proof-page source is available in:
+
+```text
+docs/index.html
+```
+
+This page is intended for GitHub Pages or Talent/Base website verification if a public project URL is needed. It does not require paid hosting, a domain, or a mainnet deployment.
+
 ## Run
 
 ```bash
@@ -126,7 +136,7 @@ It is a starter artifact for:
 ## Next Steps
 
 - Keep local verification green with `forge test -vv`.
-- Publish a short build log under mixed identity.
+- Publish / maintain the free proof page if Talent/Base website verification needs a project URL.
 - Use this as a proof asset when applying to technical bounties or Base-oriented opportunities.
 - Add one more focused checklist module only if it supports a concrete opportunity.
 - Run Base Sepolia deployment dry-run only if a public proof or reward path requires it.
